@@ -1,0 +1,374 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+header{	
+	background-color: black;
+	color: white;
+}
+.website-header{
+	padding: 20px;
+	height: 80px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.website-header img{
+	float: left;
+	width: 50px;
+	height: 50px;	
+	margin: 0 30px;
+}
+.website-header h2{
+	margin: auto 0;
+    padding-right: 10px;
+    
+}
+.website-header h1{
+	margin: auto 0;
+    padding-right: 10px;
+}
+.social-icons{
+	text-align: right;
+	flex-grow: 1;
+    font-size: 30px;
+}
+.social-icons i{
+	margin: 0 7px;
+	cursor: pointer;
+}
+.img-cen {
+text-align: center;   
+}
+nav{
+	background-color: black;
+	height: 50px;
+	margin-bottom: 20px;
+}
+nav ul{
+	margin: 20px 0 0 0;
+}
+.navbar-nav li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 20px;
+}
+.navbar-nav li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+.navbar-nav li a:hover{
+	color:#ADFF2F;
+}
+.top-news-section{
+	padding: 0 30px 0 60px;
+	display: flex;
+    height:30px;
+}
+#ttext{
+	width: 200px;
+	font-size: 16px;
+	text-transform: uppercase;
+	color:#9ACD32;
+	font-weight: 600;
+	margin: auto 0;
+}
+.top-news{
+	color: #fff;
+	text-decoration: none;	
+	font-weight: 800;
+}
+.top-news:hover,.social-icons i:hover{
+	color:#9ACD32;
+	cursor: pointer;
+}
+.tndate{
+	display: inline-block;
+	color: rgba(255,255,255,0.5);
+	padding: 0 10px;
+	font-size: 12px;
+}
+#popular-news{
+/*    margin-bottom:2% ;*/
+    
+}
+#popular-news h2{
+	margin: 0;
+	padding: 5px;
+	color: White;
+}
+#featured h2{
+	background-color: rgba(0, 0, 0, 1);
+    text-align: center;
+}
+#popular-news img{
+	
+	filter: brightness(0.6);
+	transition-duration: 500ms;   
+}
+#featured{
+    flex: 2;
+}
+.w-100 {
+    height: 80vh;
+}
+.more-news{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    color: white;
+    padding: 0 5%;
+    text-align: justify;
+}
+.more-news img{
+    width: 100%;
+}
+.news-section{
+	display: flex;
+	flex-wrap: wrap;
+	flex-basis:70%;
+	justify-content: space-between;
+}
+.news h2{	
+	background-color: #b2175b;
+    padding: 10px 0 0 0;
+}
+.news1 h2{
+    background-color: #F0A202;
+    padding: 10px 0 0 0;
+}
+.tech h2{
+    background-color: #786452;
+    padding: 10px 0 0 0;
+}
+
+aside{
+    flex-basis: 20%;
+}
+
+.news1{
+    flex-basis: 40%;
+}
+.tech{
+    flex-basis: 40%;
+}
+.social-links{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5%;
+	justify-content: space-between;
+    cursor: pointer;
+}
+.social-links section{
+	flex-basis: 30%;
+}
+.social-icons-footer i{
+	font-size: 37px;
+	padding: 5px;
+    color: #9ACD32;
+}
+.instagram img{
+	padding: 5px;
+}
+.footer-buttons{
+	display: block;
+	border: 1px solid black;
+	color: black;
+	font-size: 14px;
+	font-weight: bolder;
+	background-color: white;
+	margin: 20px auto;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+.footer-buttons:hover{
+	color: 2D2D2A;
+	border: 1px solid #fff;
+	background-color: #9ACD32;
+}
+.copyright{
+	width: 100%;
+	background-color: black;
+	color: #fff;
+	padding: 5px;
+	text-align: center;
+}
+/*#ADFF2F*/
+
+/*------------------------login------------------------------------------------------------------------------------------------*/
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color:  #9ACD32;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 10%;
+  border-radius: 10%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+html, body { width: 100%; height: 100%;}
+body { 
+    background-color: black;
+    
+}
+
+#searchform { display: block; margin: 0 auto; width: 100%; max-width: 500px; transform: translateY(10%); }
+
+span { font-size: 1.5em; 
+color:Black;}
+#search-bar { display: block; margin: .25em 0 0; width: 100%; padding: .25em .5em; font-size: 1.2em; }
+
+.output {
+  list-style: none;
+  width: 100%;
+  min-height: 0px;
+  border-top: 0 !important;
+  color: #767676;
+  font-size: .75em;
+  transition: min-height 0.2s;
+  position: absolute;
+  z-index: 5;
+}
+
+.output, #search-bar {
+  background: #fff;
+  border: 1px solid #767676;
+}
+.output:hover .focus {
+  background: #fff;
+  color: #767676;
+}
+
+
+p { margin-top: 1em; }
+h1 { color:  #9ACD32; padding-bottom: 5px; border-bottom: 2px dotted  #9ACD32; font-family: 'Patua One'; }
+
+#submit {
+  display: block;
+  margin: .5em 0 2.5em;
+  padding: .25em .5em;
+  font-size: 1.2em;
+  color:  #9ACD32;
+  border: 1px solid  #9ACD32;
+  background: 0;
+  transition: color 0.2s, background 0.2s;
+}
+
+#submit:hover {
+  color: #fff;
+  background:  #9ACD32;
+}
+
+
+
+
+/** custom normalize.css */
+html, body { width: 100%; height: 100%;}
+body {   
+    background-color:black;
+ }
+
+#searchform { display: block; margin: 0 auto; width: 100%; max-width: 500px; transform: translateY(10%); }
+form{
+    border: none;
+}
+span { font-size: 1.5em; }
+#search-bar { display: block; margin: .25em 0 0; width: 100%; padding: .25em .5em; font-size: 1.2em; }
+
+.output {
+  list-style: none;
+  width: 100%;
+  min-height: 0px;
+  border-top: 0 !important;
+  color: #767676;
+  font-size: .75em;
+  transition: min-height 0.2s;
+  position: absolute;
+  z-index: 5;
+}
+.output:hover .focus {
+  background: #fff;
+  color: #767676;
+}
+
+.para { 
+    margin-top: 1em; 
+    color: black;
+}
+.heading1 { color:  #9ACD32; padding-bottom: 5px; border-bottom: 2px dotted  #9ACD32; font-family: 'Patua One'; }
+
+#submit {
+  display: block;
+  margin: .5em 0 2.5em;
+  padding: .25em .5em;
+  font-size: 1.2em;
+  color:  #9ACD32;
+  border: 1px solid  #9ACD32;
+  background: 0;
+  transition: color 0.2s, background 0.2s;
+}
+
+#submit:hover {
+  color: #fff;
+  background:  #9ACD32;
+}
+
+
+
+
+/** custom normalize.css */
+*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden],template{display:none}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background:0 0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}hr{height:0}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}pre{white-space:pre-wrap}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{padding:0}input[type=search]{-webkit-appearance:textfield;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
